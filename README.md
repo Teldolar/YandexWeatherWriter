@@ -9,10 +9,10 @@
 - location для указания населенного пункта (Moscow, Kazan, Sochi) в котором будет осуществляться сбор информации о погоде.
 
 ### Создание таблицы
-Необходимо создать таблицу в базе данных с использованием следующего скрипта SQL:
+Необходимо создать таблицу в базе данных с использованием следующего скрипта SQL (Вместо WeatherInfo вписать название БД):
 
 ```sql
-CREATE TABLE [dbo].[WeatherInfo](
+CREATE TABLE [WeatherInfo](
     [Location] [varchar](50) NULL,
     [Temp] [int] NULL,
     [FeelsLike] [int] NULL,
